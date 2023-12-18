@@ -37,12 +37,25 @@ font-size: 30px;
 
 }
 hr{
-    height: 20px;
+    height: 30px;
+    width: 500px;
     background-color: #4068A8;
+    position:fixed;
+    margin-top: 284px;
 }
 #image-container{
     background-color: #4068A8;
     height: 640px;
     width: 480px;
     text-align: center;
+}
+#ss-computer-pics{
+position: fixed;
+margin-left: 250px;
+margin-top: 140px;
+}
+#gui-computer-pics{
+position: fixed;
+margin-right: 80px;
+margin-top: 120px;
 }
