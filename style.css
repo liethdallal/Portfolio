@@ -9,6 +9,7 @@ body{
 button{
     cursor: pointer;
 }
+
 #header{
     background-color: #4068A8;
 }
@@ -37,7 +38,7 @@ hr{
     height: 30px;
     width: 450px;
     background-color: #4068A8;
-    position:fixed;
+    position:absolute;
     margin-top: 284px;
 }
 #image-container{
@@ -48,15 +49,16 @@ hr{
     border-radius: 5%;
 }
 #ss-computer-pics{
-position: fixed;
+position: absolute;
 margin-left: 250px;
 margin-top: 140px;
 }
 #gui-computer-pics{
-position: fixed;
+position: absolute;
 margin-right: 80px;
 margin-top: 120px;
 }
+
 #name-intro{
     font-size: 40px;
     margin: 0px;
@@ -64,4 +66,15 @@ margin-top: 120px;
 #job-title{
     margin: 0px;
     font-size: 100px;
+}
+#About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-frame{
+    margin-top: 1160px;
+    width: 1000px;
+    background-color: #4068A8;
+    height: 400px;
 }
