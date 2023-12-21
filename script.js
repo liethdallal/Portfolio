@@ -1,9 +1,16 @@
-const aboutButton = document.getElementById('about-button')
-const aboutSection = document.getElementById('About')
+function scrollToSection(sectionId) {
+  const button = document.getElementById(`${sectionId}-button`);
+  const section = document.getElementById(sectionId);
 
-
-function scrollToAboutSection() {
-   aboutSection.scrollIntoView({ behavior: 'smooth' });
+  function scrollTo() {
+    section.scrollIntoView({ behavior: 'smooth' });
   }
 
-aboutButton.addEventListener('click', scrollToAboutSection)
+  button.addEventListener('click', scrollTo);
+}
+
+// Call the function for each section
+scrollToSection('about');
+scrollToSection('projects');
+scrollToSection('achievements');
+
