@@ -11,31 +11,53 @@ function scrollToSection(sectionId) {
 
 // Call the function for each section
 scrollToSection('about');
-scrollToSection('projects');
-scrollToSection('achievements');
-
+scrollToSection('projects-title-container');
+scrollToSection('journey');
 
 document.addEventListener('DOMContentLoaded', function () {
-    const projects = document.getElementById('projects');
-    const overlay = document.querySelector('.overlay');
+  const projects = document.getElementById('projects');
+  let openModalId = null;
 
-    projects.addEventListener('click', function (event) {
-        const projectsContainer = event.target.closest('.projects-container');
-        
-        if (projectsContainer) {
-            const projectId = projectsContainer.id;
-            const popupId = 'popup' + projectId.charAt(projectId.length - 1);
+  projects.addEventListener('click', function (event) {
+    const projectsContainer = event.target.closest('.projects-container');
 
-            overlay.style.display = 'flex';
+    if (projectsContainer) {
+      const projectId = projectsContainer.id;
+      const modalId = `modal${projectId.charAt(projectId.length - 1)}`;
 
-            const popup = document.getElementById(popupId).cloneNode(true);
-            overlay.appendChild(popup);
+      const modalElement = document.getElementById(modalId);
 
-            popup.querySelector('.closeButton').addEventListener('click', function () {
-                overlay.style.display = 'none';
-                overlay.removeChild(popup);
-            });
+      if (modalElement) {
+        if (openModalId) {
+          // Close the currently open modal
+          document.getElementById(openModalId).style.display = 'none';
         }
-    });
+
+        // Open the clicked modal
+        modalElement.style.display = 'block';
+        openModalId = modalId;
+
+        const closeButton = modalElement.querySelector('.closeButton');
+        if (closeButton) {
+          closeButton.addEventListener('click', function () {
+            // Close the current modal and reset openModalId
+            modalElement.style.display = 'none';
+            openModalId = null;
+          });
+        } else {
+          console.error('Close button not found in the modal.');
+        }
+      } else {
+        console.error(`Modal element with ID '${modalId}' not found.`);
+      }
+    }
+  });
 });
+
+
+
+
+
+
+
 

@@ -23,8 +23,8 @@
             </div>
           </div>
       
-        <button class="headerbuttons" id="achievements-button">Achievements</button>
-        <button class="headerbuttons" id="projects-button">Projects</button>
+        <button class="headerbuttons" id="journey-button">Journey</button>
+        <button class="headerbuttons" id="projects-title-container-button">Projects</button>
         <button class="headerbuttons" id="about-button">About</button>
       
 
@@ -51,45 +51,59 @@
 
     <div id="about">
         <div id="about-frame">
-            <h1 id="about-text">Ever since I was a kid, I loved building. I started off with Legos and it set off a domino effect into coding. Along the way, I realized what I enjoyed so much about building was the problem-solving. Coding had opened up the doorway to so many possibilities for me.<br> <br>When I am not on a computer, I'm spending time with family and friends, building and playing video games.</h1>
+            <h1 id="about-text">Ever since I was a kid, I loved building. I started off with Legos and it set off a domino effect into coding. <br> Along the way, I realized what I enjoyed so much about building was the problem-solving. <br> Coding had opened up the doorway to so many possibilities for me.<br> <br>When I am not on a computer, I'm spending time with family and friends, building and playing video games.</h1>
+            <div id="skills-container">
+                <h1 id="skills">Skills </h1>
+                <div id="skills-pictures">
+                    <img id="html" src="./images/html.png" alt="HTML">
+                    <img id="css" src="./images/css.png" alt="CSS">
+                    <img id="javascript" src="./images/javascript.png" alt="Javascript">
+                    <img id="python" src="./images/python.png" alt="Python">
+
+                </div>
+            </div>
         </div>
     </div>
+
+    <div id="projects-title-container">
+        <h1 id="projects-title">Projects</h1>
+
+    </div>
+
 
     <div id="projects">
         <div class="projects-container" id="project1">
             <h1>SkyMap Connect</h1>
         </div>
-
+    
         <div class="projects-container" id="project2">
             <h1>Movie Planner</h1>
         </div>
-
+    
         <div class="projects-container" id="project3">
             <h1>LifeSync</h1>
         </div>
     </div>
-
-    <div class="overlay">
-        <div class="popup" id="popupProject1">
-            <h2 class="module-title">SkyMap Connect Details</h2>
-            <p class="module-content">Details about SkyMap Connect project.</p>
-            <button class="closeButton" data-project-id="project1">Close</button>
-        </div>
-
-        <div class="popup" id="popupProject2">
-            <h2 class="module-title">Movie Planner Details</h2>
-            <p class="module-content">Details about Movie Planner project.</p>
-            <button class="closeButton" data-project-id="project2">Close</button>
-        </div>
-
-        <div class="popup" id="popupProject3">
-            <h2 class="module-title">LifeSync Details</h2>
-            <p class="module-content">Details about LifeSync project.</p>
-            <button class="closeButton" data-project-id="project3">Close</button>
-        </div>
+    
+    <div class="modal" id="modal1">
+        <h2 class="module-title">SkyMap Connect Details</h2>
+        <p class="module-content">Details about SkyMap Connect project.</p>
+        <button class="closeButton" data-project-id="project1">Close</button>
+    </div>
+    
+    <div class="modal" id="modal2">
+        <h2 class="module-title">Movie Planner Details</h2>
+        <p class="module-content">Details about Movie Planner project.</p>
+        <button class="closeButton" data-project-id="project2">Close</button>
+    </div>
+    
+    <div class="modal" id="modal3">
+        <h2 class="module-title">LifeSync Details</h2>
+        <p class="module-content">Details about LifeSync project.</p>
+        <button class="closeButton" data-project-id="project3">Close</button>
     </div>
 
-    <div id="achievements">
+    <div id="journey">
 
     </div>
 
