@@ -12,7 +12,9 @@ function scrollToSection(sectionId) {
 // Call the function for each section
 scrollToSection('about');
 scrollToSection('projects-title-container');
-scrollToSection('journey');
+scrollToSection('achievments');
+scrollToSection('contact');
+
 
 document.addEventListener('DOMContentLoaded', function () {
   const projects = document.getElementById('projects');

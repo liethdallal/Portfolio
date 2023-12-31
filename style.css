@@ -247,10 +247,47 @@ height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
-}        .timeline {
-    position: relative;
-    width: 80%;
-    margin: 50px auto;
-    height: 2px;
+}   
+#achievments{
+display: flex;
+justify-content: center;
+align-items: center;
+}     
+.timeline {
+    margin: 20px ;
+    height: 600px;
+    width: 1200px;
     background-color: #3498db;
+    padding: 10px;
+    border-top-right-radius: 240px;
+    border-top-left-radius: 240px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.event {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px;
+
+}
+
+.date {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 16px;
+}
+#achiv-title{
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    height: 200px;
+    width: 100%;
 }
