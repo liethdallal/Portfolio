@@ -12,7 +12,7 @@ function scrollToSection(sectionId) {
 // Call the function for each section
 scrollToSection('about');
 scrollToSection('projects-title-container');
-scrollToSection('achievments');
+scrollToSection('achievements');
 scrollToSection('contact');
 
 
