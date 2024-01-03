@@ -248,7 +248,7 @@ height: 170px;
     justify-content: center;
     align-items: center;
 }   
-#achievments{
+#experience{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -259,8 +259,8 @@ align-items: center;
     width: 1200px;
     background-color: #3498db;
     padding: 10px;
-    border-top-right-radius: 240px;
-    border-top-left-radius: 240px;
+    border-top-right-radius: 140px;
+    border-top-left-radius: 140px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -285,9 +285,12 @@ align-items: center;
 }
 #achiv-title{
     text-align: center;
+    color: ghostwhite;
+    font-size: 55px;
+    margin: 20px;
 }
 footer{
     background-color: #333;
-    height: 200px;
+    height: 100px;
     width: 100%;
 }

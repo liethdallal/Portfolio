@@ -12,8 +12,7 @@ function scrollToSection(sectionId) {
 // Call the function for each section
 scrollToSection('about');
 scrollToSection('projects-title-container');
-scrollToSection('achievements');
-scrollToSection('contact');
+scrollToSection('experience');
 
 
 document.addEventListener('DOMContentLoaded', function () {
