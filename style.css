@@ -481,7 +481,13 @@ height: 30px;
     margin: 10px;
     gap: 10px;
  }
-
+#complete-project-container{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+#complete-about-container{
+    margin-top: 90px;
+}
  .projects-container:hover {
     transform: scale(1.05);
 }
