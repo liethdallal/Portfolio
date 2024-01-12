@@ -631,7 +631,7 @@ body{
 }
 
 .event {
-    background-color: #fff;
+    background-color:  rgb(240, 234, 234) ;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
