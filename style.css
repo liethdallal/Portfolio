@@ -111,23 +111,34 @@ justify-content: space-evenly;
     border-bottom-right-radius: 20px;
 }
 #html{
-height: 170px;
-margin-bottom: 20px;
+height: 140px;
+margin-bottom: 40px;
 }
 #css{
-    height: 170px;
+    height: 140px;
 }
 #javascript{
-    height: 170px;
+    height: 140px;
 }
 #python{
-height: 170px;
+height: 140px;
 }
 #java{
-    height: 170px;
+    height: 140px;
 }
-#mern{
-    height: 170px;
+#mongo{
+    height: 140px;
+}
+#express{
+    height: 140px;
+
+}
+#react{
+    height: 140px;
+}
+#node{
+    height: 140px;
+
 }
 #about-frame{
     width: 1400px;
@@ -199,9 +210,9 @@ height: 170px;
  }
  .projects-container{
     height:400px;
-    width: 500px;
+    width: 300px;
     background-color: rgb(240, 234, 234);
-    margin: 40px;
+    margin: 20px;
  }
  .projects-container:hover {
     transform: scale(1.05);
@@ -230,13 +241,23 @@ height: 170px;
     width: 700px;
     height: 600px;
 }
-
+#modal1 img {
+margin-left: 28%;
+}
+#modal2 img {
+    margin-left: 28%;
+    }
+#modal3 img {
+    margin-left: 28%;
+    }
 .module-title {
-    color: #333;
+    color: black;
+    text-align: center;
 }
 
 .module-content {
-    color: #666;
+    color: black;
+    text-align: center;
 }
 
 /* Close button */
@@ -248,6 +269,8 @@ height: 170px;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 3px;
+    margin-left: 45%;
+
 }
 #projects-title{
     padding: 0px;
@@ -272,7 +295,7 @@ align-items: center;
     margin: 20px ;
     height: 600px;
     width: 1200px;
-    background-color: #953047;
+    background-color: #4068A8;
     padding: 10px;
     border-top-right-radius: 140px;
     border-top-left-radius: 140px;
@@ -311,6 +334,7 @@ footer{
 }
 #skymap{
     width: 290px;
+    
 }
 #movie-planner{
     height: 300px;
@@ -321,7 +345,10 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
+#youtube{
+    width: 50px;
+    margin-right: 30%;
+}
 
 
 
@@ -451,6 +478,20 @@ height: 30px;
 #mern{
     height: 30px;
 }
+#mongo{
+    height: 30px;
+}
+#express{
+    height: 30px;
+
+}
+#react{
+    height: 30px;
+}
+#node{
+    height: 30px;
+
+}
 #about-frame{
     width: 500px;
     background-color: #4068A8;
@@ -560,13 +601,18 @@ height: 30px;
     height: 350px;
 }
 
+
 .module-title {
-    color: #333;
+    color: black;
+    text-align: center;
 }
 
 .module-content {
-    color: #666;
+    color: black;
+    text-align: center;
+    font-size: 10px;
 }
+
 
 /* Close button */
 .closeButton {
@@ -577,6 +623,7 @@ height: 30px;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 3px;
+    margin-left: 40%;
 }
 #projects-title{
     padding: 0px;
@@ -599,9 +646,9 @@ height: 30px;
 }   
 .timeline {
     margin: 20px ;
-    height: 600px;
+    height: 650px;
     width: 300px;
-    background-color: #953047;
+    background-color: #4068A8;
     padding: 10px;
     border-top-right-radius: 140px;
     border-top-left-radius: 140px;
@@ -618,17 +665,6 @@ body{
     margin: 0px;
 }
     
-.timeline {
-    margin: 20px ;
-    height: 600px;
-    width: 600px;
-    background-color: #953047;
-    padding: 10px;
-    border-top-right-radius: 140px;
-    border-top-left-radius: 140px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
 
 .event {
     background-color:  rgb(240, 234, 234) ;
@@ -636,7 +672,7 @@ body{
     border-radius: 5px;
     padding: 20px;
     margin: 40px;
-    height: 160px;
+    height: 210px;
 
 }
 
@@ -663,4 +699,17 @@ footer{
     width: 90px
 
 }
+#modal1 img {
+    margin-left: 35%;
+    }
+#modal2 img {
+    margin-left: 35%;
+    }
+#modal3 img {
+    margin-left: 35%;
+    }
+    #youtube{
+        width: 40px;
+        margin-right: 30%;
+    }
 }
