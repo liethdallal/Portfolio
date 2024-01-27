@@ -379,6 +379,7 @@ footer{
         background-color: #4068A8;
         font-size: 15px;
         transition: background-color 0.3s;
+        color: black;
         }
         #github{
             height: 20px;
