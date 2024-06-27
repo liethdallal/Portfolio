@@ -375,7 +375,7 @@ footer{
         margin: 10px;
         padding: 0px;
         background-color: #4068A8;
-        font-size: 15px;
+        font-size: 13px;
         transition: background-color 0.3s;
         color: black;
         }
@@ -398,12 +398,12 @@ footer{
         #my-pic{
             height: 420px;
             width: 390px;
-            margin-top: 9%;
+            margin-top: 11%;
         }
         #image-container{
             background-color: #4068A8;
-            height: 500px;
-            width: 260px;
+            height: 200px;
+            width: 160px;
             text-align: center;
             border-radius: 5%;
         }
@@ -411,12 +411,12 @@ footer{
     #intro-box{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 
 }
 #my-pic{
-    height: 170px;
-    width: 120px;
+    height: 145px;
+    width: 110px;
     margin-top: 9%;
 }
 hr{
@@ -428,8 +428,8 @@ hr{
 }
 #image-container{
     background-color: #4068A8;
-    height: 200px;
-    width: 160px;
+    height: 167px;
+    width: 130px;
     text-align: center;
     border-radius: 5%;
 }
@@ -447,7 +447,7 @@ width: 110px;
 }
 
 #name-intro{
-    font-size: 20px;
+    font-size: 15px;
     margin: 0px;
     text-wrap: nowrap;
 }
