@@ -12,7 +12,6 @@ function scrollToSection(sectionId) {
 // Call the function for each section
 scrollToSection('about');
 scrollToSection('complete-project-container');
-scrollToSection('experience');
 
 
 document.addEventListener('DOMContentLoaded', function () {
