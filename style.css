@@ -223,7 +223,7 @@ font-family: "Libre Baskerville", serif;
  .projects-container{
     height:400px;
     width: 300px;
-    background-color: rgb(240, 234, 234);
+    background-color: rgb(196, 187, 187);
     margin: 20px;
  }
  .projects-container:hover {
@@ -969,7 +969,7 @@ footer{
      }
      .projects-container{
         height:400px;
-        background-color: rgb(240, 234, 234);
+        background-color: rgb(196, 187, 187);
         margin: 20px;
      }
      .projects-container:hover {
