@@ -372,11 +372,6 @@ footer{
 
 @media only screen and (max-width: 768px) {
     .headerbuttons{
-        float: right;
-        border: none;
-        margin: 10px;
-        padding: 0px;
-        background-color: #4068A8;
         font-size: 13px;
         transition: background-color 0.3s;
         color: black;
@@ -673,9 +668,6 @@ height: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-body{
-    overflow-x: hidden;
-}
 #achiv-title{
     text-align: center;
     color: ghostwhite;
@@ -743,33 +735,11 @@ footer{
 
 
 @media only screen and (max-width: 1400px) and (min-width: 769px) {
-    body{
-        margin: 0px;
-        padding: 0px;
-        background-color:rgb(240, 234, 234);
-        overflow-x: hidden;
-        font-family: "Libre Baskerville", serif;
-    
-    }
     #logo{
         height: 80px;
         margin-left: 10px;
     }
-    button{
-        cursor: pointer;
-    }
-    
-    #header{
-        background-color: #4068A8;
-        width: 100%;
-    
-    }
     .headerbuttons{
-    float: right;
-    border: none;
-    margin: 20px;
-    padding: 0px;
-    background-color: #4068A8;
     font-size: 25px;
     transition: background-color 0.3s;
     font-family: "Libre Baskerville", serif;
@@ -778,18 +748,6 @@ footer{
     #github{
         height: 50px;
         width: 50px;
-    }
-    #github-container{
-    float: right;
-    border: none;
-    margin: 13px;
-    padding: 0px;
-    background-color: #4068A8;
-    font-size: 30px;
-    transition: background-color 0.3s;
-    }
-    .headerbuttons:hover{
-        background-color: ghostwhite;
     }
     #github-container:hover{
         background-color: ghostwhite;
