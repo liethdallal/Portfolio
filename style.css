@@ -13,22 +13,19 @@ body{
 button{
     cursor: pointer;
 }
-
 #header{
     background-color: #4068A8;
     width: 100%;
-
 }
 .headerbuttons{
-float: right;
-border: none;
-margin: 20px;
-padding: 0px;
-background-color: #4068A8;
-font-size: 30px;
-transition: background-color 0.3s;
-font-family: "Libre Baskerville", serif;
-
+    float: right;
+    border: none;
+    margin: 20px;
+    padding: 0px;
+    background-color: #4068A8;
+    font-size: 30px;
+    transition: background-color 0.3s;
+    font-family: "Libre Baskerville", serif;
 }
 #github{
     height: 50px;
