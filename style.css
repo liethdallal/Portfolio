@@ -641,6 +641,8 @@ footer{
     .closeButton {
         background-color: rgb(196, 187, 187);
         cursor: pointer;
+        font-size: 20px;
+        width: 20px;
     }
     #projects-title{
         padding: 0px;
