@@ -242,7 +242,7 @@ height: 140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:#79ACBE;
+    background-color:#56bfe6;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -250,35 +250,46 @@ height: 140px;
     width: 700px;
     height: 600px;
 }
-#modal1 img {
-margin-left: 28%;
-}
-#modal2 img {
-    margin-left: 28%;
-    }
-#modal3 img {
-    margin-left: 28%;
-    }
 .module-title {
     color: black;
     text-align: center;
+    font-size: 25px;
+}
+.project-pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.module-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.module-content {
-    color: black;
-    text-align: center;
+.module-content a{
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
 }
 
 /* Close button */
 .closeButton {
-    background-color: #007bff;
-    color: #fff;
+    position: absolute;
     border: none;
-    padding: 8px 15px;
-    margin-top: 10px;
+    width: 40px;
+    font-size: 40px;
+    background-color: rgb(196, 187, 187);
     cursor: pointer;
-    border-radius: 3px;
-    margin-left: 45%;
+    padding: 0px;
+    margin: 0px;
+    right: 12px;
+    border-radius: 10%;
 
 }
 #projects-title{
@@ -356,9 +367,11 @@ footer{
     justify-content: center;
     align-items: center;
 }
-#youtube{
-    width: 50px;
-    margin-right: 30%;
+.icon{
+    height:150px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 10px;
 }
 #lifesync{
     width: 270px;
@@ -367,452 +380,98 @@ footer{
 
 
 
-@media only screen and (max-width: 768px) {
-    .headerbuttons{
-        font-size: 13px;
-        transition: background-color 0.3s;
-        color: black;
-        }
-        #github{
-            height: 20px;
-            width: 20px;
-        }
-        #github-container{
-        float: right;
-        border: none;
-        margin: 2px;
-        padding: 0px;
-        background-color: #4068A8;
-        font-size: 30px;
-        transition: background-color 0.3s;
-        }
-        #logo{
-            height: 40px;
-        }
-        #my-pic{
-            height: 420px;
-            width: 390px;
-            margin-top: 11%;
-        }
-        #image-container{
+    @media only screen and (max-width: 768px) {
+        .headerbuttons{
+            font-size: 13px;
+            transition: background-color 0.3s;
+            color: black;
+            }
+            #github{
+                height: 20px;
+                width: 20px;
+            }
+            #github-container{
+            float: right;
+            border: none;
+            margin: 2px;
+            padding: 0px;
             background-color: #4068A8;
-            height: 200px;
-            width: 160px;
-            text-align: center;
-            border-radius: 5%;
-        }
-        
-    #intro-box{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-
-}
-#my-pic{
-    height: 145px;
-    width: 110px;
-    margin-top: 9%;
-}
-hr{
-    height: 15px;
-    width: 220px;
-    background-color: #4068A8;
-    position:absolute;
-    margin-top: 86px;
-}
-#image-container{
-    background-color: #4068A8;
-    height: 167px;
-    width: 130px;
-    text-align: center;
-    border-radius: 5%;
-}
-#ss-computer-pics{
-position: absolute;
-margin-left: 110px;
-margin-top: 17.8px;
-width: 90px;
-}
-#gui-computer-pics{
-position: absolute;
-margin-right: 80px;
-margin-top: 0px;
-width: 110px;
-}
-
-#name-intro{
-    font-size: 15px;
-    margin: 0px;
-    text-wrap: nowrap;
-}
-#job-title{
-    margin: 0px;
-    font-size: 35px;
-}
-#about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-}
-#skills{
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-}
-#skills-pictures{
-display: flex;
-justify-content: space-evenly;
-}
-#skills-container{
-    background-color: #614689;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-#html{
-height: 20px;
-}
-#css{
-    height: 30px;
-}
-#javascript{
-    height: 30px;
-}
-#python{
-height: 30px;
-}
-#java{
-    height: 30px;
-}
-#mern{
-    height: 30px;
-}
-#mongo{
-    height: 30px;
-}
-#express{
-    height: 30px;
-
-}
-#react{
-    height: 30px;
-}
-#node{
-    height: 30px;
-
-}
-#about-frame{
-    width: 500px;
-    background-color: #4068A8;
-    height: 230px;
-    color: ghostwhite;
-    margin-bottom: 60px;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-
-}
-#about-text{
-    padding: 30px;
-    font-size: 10px;
-    text-align: center;
-    text-wrap: wrap;
-}
-
-.dropdown-btn {
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    position: relative; /* Add position: relative */
-    float: right;
-}
-
-  /* Style for the dropdown container */
-  .dropdown-container {
-    display: none;
-    position: absolute;
-    background-color:#4068A8;
-    min-width: 70px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    top: 100%; /* Update top to 100% for top alignment */
-    right: 0; /* Update right to 0 for right alignment */
-  }
-  
-  /* Style for the dropdown items */
-  .dropdown-item {
-    padding: 12px 16px;
-    display: block;
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  /* Change the background color of the dropdown items on hover */
-  .dropdown-item:hover {
-    background-color: #3498db;
-    color: #fff;
-  }
-  
-  /* Show the dropdown container when hovering over the button */
-  .dropdown-btn:hover .dropdown-container {
-    display: block;
-  }
- .contact-header-icons{
-    width: 20px;
- }
- #projects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #373659;
-    padding: 40px;
-    margin: 10px;
-    gap: 0px;
-    width: 320px;
-    height: 200px;
- }
-#complete-project-container{
-    margin-top: 90px;
-    margin-bottom: 40px;
-}
-#complete-about-container{
-    margin-top: 90px;
-}
- .projects-container:hover {
-    transform: scale(1.05);
-}
-.projects-container {
-    cursor: pointer;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;
-    width: 90px;
-    height: 140px;
-}
-.project-names{
-    font-size: 9px;
-}
-
-/* Modals */
-.modal {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:#79ACBE;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    z-index: 1000;
-    width: 300px;
-    height: 350px;
-}
-
-
-.module-title {
-    color: black;
-    text-align: center;
-    font-size: 15px;
-}
-
-.module-content {
-    color: black;
-    text-align: center;
-    font-size: 10px;
-}
-
-
-/* Close button */
-.closeButton {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 15px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 3px;
-    margin-left: 40%;
-}
-#projects-title{
-    padding: 0px;
-    font-size: 25px;
-    background-color:#373659;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    position: absolute;
-    margin-bottom: -320px;
-    border-radius: 20px;
-    padding: 20px;
-    color: ghostwhite;
-
-}
-#projects-title-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-.timeline {
-    margin: 20px ;
-    height: 650px;
-    width: 300px;
-    background-color: #4068A8;
-    padding: 10px;
-    border-top-right-radius: 80px;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-#achiv-title{
-    text-align: center;
-    color: ghostwhite;
-    font-size: 22px;
-    margin: 0px;
-}
-    
-
-.event {
-    background-color:  rgb(240, 234, 234) ;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 40px;
-    height: 210px;
-
-}
-
-.date {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.description {
-    font-size: 10px;
-}
-footer{
-    background-color: #333;
-    height: 100px;
-    width: 100%;
-    margin-top: 50px;
-}
-#skymap{
-    height: 112px;
-    width: 90px;
-}
-#movie-planner{
-    height: 112px;
-    width: 90px
-
-}
-#modal1 img {
-    margin-left: 35%;
-    }
-#modal2 img {
-    margin-left: 35%;
-    }
-#modal3 img {
-    margin-left: 35%;
-    }
-    #youtube{
-        width: 40px;
-        margin-right: 30%;
-    }
-    #lifesync{
-        height: 112px;
-        width: 90px;
-    }
-}
-
-
-
-
-
-
-@media only screen and (max-width: 1400px) and (min-width: 769px) {
-    #logo{
-        height: 80px;
-        margin-left: 10px;
-    }
-    .headerbuttons{
-    font-size: 25px;
-    transition: background-color 0.3s;
-    font-family: "Libre Baskerville", serif;
-    
-    }
-    #github{
-        height: 50px;
-        width: 50px;
-    }
-    #github-container:hover{
-        background-color: ghostwhite;
-    
-    }
-    #intro-box{
+            font-size: 30px;
+            transition: background-color 0.3s;
+            }
+            #logo{
+                height: 40px;
+            }
+            #my-pic{
+                height: 420px;
+                width: 390px;
+                margin-top: 11%;
+            }
+            #image-container{
+                background-color: #4068A8;
+                height: 200px;
+                width: 160px;
+                text-align: center;
+                border-radius: 5%;
+            }
+            
+        #intro-box{
         display: flex;
         justify-content: center;
-        margin: 30px;
-        gap: 70px;
+        gap: 10px;
+
     }
     #my-pic{
-        height: 320px;
-        width: 240px;
+        height: 145px;
+        width: 110px;
         margin-top: 9%;
     }
     hr{
-        height: 30px;
-        width: 450px;
+        height: 15px;
+        width: 220px;
         background-color: #4068A8;
         position:absolute;
-        margin-top: 184px;
+        margin-top: 86px;
     }
     #image-container{
         background-color: #4068A8;
-        height: 370px;
-        width: 270px;
+        height: 167px;
+        width: 130px;
         text-align: center;
         border-radius: 5%;
     }
     #ss-computer-pics{
     position: absolute;
-    margin-left: 250px;
-    margin-top: 42px;
+    margin-left: 110px;
+    margin-top: 17.8px;
+    width: 90px;
     }
     #gui-computer-pics{
     position: absolute;
     margin-right: 80px;
-    margin-top: 1px;
+    margin-top: 0px;
+    width: 110px;
     }
-    
+
     #name-intro{
-        font-size: 30px;
+        font-size: 15px;
         margin: 0px;
         text-wrap: nowrap;
-    font-family: "Libre Baskerville", serif;
-    
     }
     #job-title{
         margin: 0px;
-        font-size: 75px;
-        font-family: "Russo One", sans-serif;
+        font-size: 35px;
     }
     #about{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 40px;
-    font-family: "Libre Baskerville", serif;
-    margin-top: 100px;
     }
-    
     #skills{
         text-align: center;
         padding: 10px;
-        font-size: 40px;
-    font-family: "Libre Baskerville", serif;
-        
+        font-size: 20px;
     }
     #skills-pictures{
     display: flex;
@@ -824,53 +483,54 @@ footer{
         border-bottom-right-radius: 20px;
     }
     #html{
-    height: 90px;
-    margin-bottom: 40px;
+    height: 20px;
     }
     #css{
-        height: 90px;
+        height: 30px;
     }
     #javascript{
-        height: 90px;
+        height: 30px;
     }
     #python{
-    height: 90px;
+    height: 30px;
     }
     #java{
-        height: 90px;
+        height: 30px;
+    }
+    #mern{
+        height: 30px;
     }
     #mongo{
-        height: 90px;
+        height: 30px;
     }
     #express{
-        height: 90px;
-    
+        height: 30px;
+
     }
     #react{
-        height: 90px;
+        height: 30px;
     }
     #node{
-        height: 90px;
-    
+        height: 30px;
+
     }
     #about-frame{
+        width: 500px;
         background-color: #4068A8;
-        height: 330px;
+        height: 230px;
         color: ghostwhite;
         margin-bottom: 60px;
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
-    
+
     }
     #about-text{
         padding: 30px;
-        font-size: 15.5px;
+        font-size: 10px;
         text-align: center;
-        text-wrap: nowrap;
-    font-family: "Libre Baskerville", serif;
-        
+        text-wrap: wrap;
     }
-    
+
     .dropdown-btn {
         color: #fff;
         border: none;
@@ -878,67 +538,75 @@ footer{
         position: relative; /* Add position: relative */
         float: right;
     }
-    
-      /* Style for the dropdown container */
-      .dropdown-container {
+
+    /* Style for the dropdown container */
+    .dropdown-container {
         display: none;
         position: absolute;
         background-color:#4068A8;
-        min-width: 143.39px;
+        min-width: 70px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         z-index: 1;
         top: 100%; /* Update top to 100% for top alignment */
         right: 0; /* Update right to 0 for right alignment */
-      }
-      
-      /* Style for the dropdown items */
-      .dropdown-item {
+    }
+    
+    /* Style for the dropdown items */
+    .dropdown-item {
         padding: 12px 16px;
         display: block;
         cursor: pointer;
         text-align: center;
-      }
-      
-      /* Change the background color of the dropdown items on hover */
-      .dropdown-item:hover {
+    }
+    
+    /* Change the background color of the dropdown items on hover */
+    .dropdown-item:hover {
         background-color: #3498db;
         color: #fff;
-      }
-      
-      /* Show the dropdown container when hovering over the button */
-      .dropdown-btn:hover .dropdown-container {
+    }
+    
+    /* Show the dropdown container when hovering over the button */
+    .dropdown-btn:hover .dropdown-container {
         display: block;
-      }
-     .contact-header-icons{
-        width: 60px;
-     }
-     #projects{
+    }
+    .contact-header-icons{
+        width: 20px;
+    }
+    #projects{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #373659;
         padding: 40px;
-        margin: 100px;
-        gap: 10px;
-        width: 1800px;
-     }
-     .projects-container{
-        height:400px;
-        background-color: rgb(196, 187, 187);
-        margin: 20px;
-     }
-     .projects-container:hover {
+        margin: 10px;
+        gap: 0px;
+        width: 320px;
+        height: 200px;
+    }
+    #complete-project-container{
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+    #complete-about-container{
+        margin-top: 90px;
+    }
+    .projects-container:hover {
         transform: scale(1.05);
     }
     .projects-container {
         cursor: pointer;
         padding: 10px;
         border: 1px solid #ccc;
+        margin: 5px;
         border-radius: 5px;
         text-align: center;
-        margin-top: 40px;
+        width: 90px;
+        height: 140px;
     }
-    
+    .project-names{
+        font-size: 9px;
+    }
+
     /* Modals */
     .modal {
         display: none;
@@ -946,123 +614,439 @@ footer{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color:#79ACBE;
+        background-color:#56bfe6;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         z-index: 1000;
-        width: 700px;
-        height: 600px;
+        width: 300px;
+        height: 350px;
     }
-    #modal1 img {
-    margin-left: 28%;
-    }
-    #modal2 img {
-        margin-left: 28%;
-        }
-    #modal3 img {
-        margin-left: 28%;
-        }
+
+
     .module-title {
         color: black;
         text-align: center;
+        font-size: 15px;
     }
-    
+
     .module-content {
         color: black;
         text-align: center;
+        font-size: 10px;
     }
-    
+
+
     /* Close button */
     .closeButton {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 8px 15px;
-        margin-top: 10px;
+        background-color: rgb(196, 187, 187);
         cursor: pointer;
-        border-radius: 3px;
-        margin-left: 45%;
-    
     }
     #projects-title{
         padding: 0px;
-        font-size: 60px;
+        font-size: 25px;
         background-color:#373659;
         text-align: center;
-        width: 600px;
-        height: 100px;
+        width: 100px;
+        height: 30px;
         position: absolute;
-        margin-top: -600px;
+        margin-bottom: -320px;
         border-radius: 20px;
+        padding: 20px;
         color: ghostwhite;
-    
+
     }
-    
-    #experience{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }     
+    #projects-title-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
     .timeline {
         margin: 20px ;
-        height: 600px;
-        width: 1200px;
+        height: 650px;
+        width: 300px;
         background-color: #4068A8;
         padding: 10px;
-        border-top-right-radius: 140px;
-        border-top-left-radius: 140px;
+        border-top-right-radius: 80px;
+        border-top-left-radius: 80px;
         border-bottom-right-radius: 30px;
         border-bottom-left-radius: 30px;
-    }
-    
-    .event {
-        background-color: rgb(240, 234, 234);
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        padding: 20px;
-        margin: 40px;
-    
-    }
-    
-    .date {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 30px;
-    }
-    
-    .description {
-        font-size: 16px;
     }
     #achiv-title{
         text-align: center;
         color: ghostwhite;
-        font-size: 55px;
-        margin: 20px;
+        font-size: 22px;
+        margin: 0px;
+    }
+        
+
+    .event {
+        background-color:  rgb(240, 234, 234) ;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 40px;
+        height: 210px;
+
+    }
+
+    .date {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 10px;
     }
     footer{
         background-color: #333;
         height: 100px;
         width: 100%;
+        margin-top: 50px;
     }
     #skymap{
-        width: 290px;
-        
+        height: 112px;
+        width: 90px;
     }
     #movie-planner{
-        height: 300px;
-        width: 290px;
+        height: 112px;
+        width: 90px
+
     }
-    #complete-project-container{
+    .icon{
+        height:60px;
+        border-radius: 100%;
+    }
+        #lifesync{
+            height: 112px;
+            width: 90px;
+        }
+    }
+
+
+
+
+
+
+        @media only screen and (max-width: 1400px) and (min-width: 769px) {
+        #logo{
+            height: 80px;
+            margin-left: 10px;
+        }
+        .headerbuttons{
+        font-size: 25px;
+        transition: background-color 0.3s;
+        font-family: "Libre Baskerville", serif;
+        
+        }
+        #github{
+            height: 50px;
+            width: 50px;
+        }
+        #github-container:hover{
+            background-color: ghostwhite;
+        
+        }
+        #intro-box{
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            gap: 70px;
+        }
+        #my-pic{
+            height: 320px;
+            width: 240px;
+            margin-top: 9%;
+        }
+        hr{
+            height: 30px;
+            width: 450px;
+            background-color: #4068A8;
+            position:absolute;
+            margin-top: 184px;
+        }
+        #image-container{
+            background-color: #4068A8;
+            height: 370px;
+            width: 270px;
+            text-align: center;
+            border-radius: 5%;
+        }
+        #ss-computer-pics{
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 42px;
+        }
+        #gui-computer-pics{
+        position: absolute;
+        margin-right: 80px;
+        margin-top: 1px;
+        }
+        
+        #name-intro{
+            font-size: 30px;
+            margin: 0px;
+            text-wrap: nowrap;
+        font-family: "Libre Baskerville", serif;
+        
+        }
+        #job-title{
+            margin: 0px;
+            font-size: 75px;
+            font-family: "Russo One", sans-serif;
+        }
+        #about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+        font-family: "Libre Baskerville", serif;
+        margin-top: 100px;
+        }
+        
+        #skills{
+            text-align: center;
+            padding: 10px;
+            font-size: 40px;
+        font-family: "Libre Baskerville", serif;
+            
+        }
+        #skills-pictures{
+        display: flex;
+        justify-content: space-evenly;
+        }
+        #skills-container{
+            background-color: #614689;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        #html{
+        height: 90px;
+        margin-bottom: 40px;
+        }
+        #css{
+            height: 90px;
+        }
+        #javascript{
+            height: 90px;
+        }
+        #python{
+        height: 90px;
+        }
+        #java{
+            height: 90px;
+        }
+        #mongo{
+            height: 90px;
+        }
+        #express{
+            height: 90px;
+        
+        }
+        #react{
+            height: 90px;
+        }
+        #node{
+            height: 90px;
+        
+        }
+        #about-frame{
+            background-color: #4068A8;
+            height: 330px;
+            color: ghostwhite;
+            margin-bottom: 60px;
+            border-bottom-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+        
+        }
+        #about-text{
+            padding: 30px;
+            font-size: 15.5px;
+            text-align: center;
+            text-wrap: nowrap;
+        font-family: "Libre Baskerville", serif;
+            
+        }
+        
+        .dropdown-btn {
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            position: relative; /* Add position: relative */
+            float: right;
+        }
+        
+        /* Style for the dropdown container */
+        .dropdown-container {
+            display: none;
+            position: absolute;
+            background-color:#4068A8;
+            min-width: 143.39px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            top: 100%; /* Update top to 100% for top alignment */
+            right: 0; /* Update right to 0 for right alignment */
+        }
+        
+        /* Style for the dropdown items */
+        .dropdown-item {
+            padding: 12px 16px;
+            display: block;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        /* Change the background color of the dropdown items on hover */
+        .dropdown-item:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+        
+        /* Show the dropdown container when hovering over the button */
+        .dropdown-btn:hover .dropdown-container {
+            display: block;
+        }
+        .contact-header-icons{
+            width: 60px;
+        }
+        #projects{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #373659;
+            padding: 40px;
+            margin: 100px;
+            gap: 10px;
+            width: 1800px;
+        }
+        .projects-container{
+            height:400px;
+            background-color: rgb(196, 187, 187);
+            margin: 20px;
+        }
+        .projects-container:hover {
+            transform: scale(1.05);
+        }
+        .projects-container {
+            cursor: pointer;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        /* Modals */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color:#56bfe6;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1000;
+            width: 700px;
+            height: 600px;
+        }
+        .module-title {
+            color: black;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        
+        .module-content {
+            color: black;
+            text-align: center;
+        }
+        
+        /* Close button */
+        .closeButton {
+            background-color: rgb(196, 187, 187);
+            cursor: pointer;
+        }
+        #projects-title{
+            padding: 0px;
+            font-size: 60px;
+            background-color:#373659;
+            text-align: center;
+            width: 600px;
+            height: 100px;
+            position: absolute;
+            margin-top: -600px;
+            border-radius: 20px;
+            color: ghostwhite;
+        
+        }
+        
+        #experience{
         display: flex;
         justify-content: center;
         align-items: center;
+        }     
+        .timeline {
+            margin: 20px ;
+            height: 600px;
+            width: 1200px;
+            background-color: #4068A8;
+            padding: 10px;
+            border-top-right-radius: 140px;
+            border-top-left-radius: 140px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        
+        .event {
+            background-color: rgb(240, 234, 234);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 40px;
+        
+        }
+        
+        .date {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        .description {
+            font-size: 16px;
+        }
+        #achiv-title{
+            text-align: center;
+            color: ghostwhite;
+            font-size: 55px;
+            margin: 20px;
+        }
+        footer{
+            background-color: #333;
+            height: 100px;
+            width: 100%;
+        }
+        #skymap{
+            width: 290px;
+            
+        }
+        #movie-planner{
+            height: 300px;
+            width: 290px;
+        }
+        #complete-project-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon{
+            height:150px;
+            border-radius: 100%;
+        }
+        #lifesync{
+            width: 270px;
+        }
     }
-    #youtube{
-        width: 50px;
-        margin-right: 30%;
-    }
-    #lifesync{
-        width: 270px;
-    }
-}
