@@ -92,7 +92,7 @@ font-family: "Libre Baskerville", serif;
 }
 #job-title{
     margin: 0px;
-    font-size: 95px;
+    font-size: 75px;
     font-family: "Russo One", sans-serif;
 }
 #about{
@@ -547,7 +547,7 @@ footer{
         min-width: 70px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         z-index: 1;
-        top: 100%; /* Update top to 100% for top alignment */
+        top: 70%; /* Update top to 100% for top alignment */
         right: 0; /* Update right to 0 for right alignment */
     }
     
@@ -763,7 +763,7 @@ footer{
         }
         hr{
             height: 30px;
-            width: 450px;
+            width: 350px;
             background-color: #4068A8;
             position:absolute;
             margin-top: 184px;
@@ -777,13 +777,15 @@ footer{
         }
         #ss-computer-pics{
         position: absolute;
-        margin-left: 250px;
-        margin-top: 42px;
+        margin-left: 190px;
+        margin-top: 63px;
+        width: 160px;
         }
         #gui-computer-pics{
         position: absolute;
         margin-right: 80px;
-        margin-top: 1px;
+        margin-top: 35px;
+        width: 190px;
         }
         
         #name-intro{
@@ -795,7 +797,7 @@ footer{
         }
         #job-title{
             margin: 0px;
-            font-size: 75px;
+            font-size: 38px;
             font-family: "Russo One", sans-serif;
         }
         #about{
@@ -884,7 +886,7 @@ footer{
             display: none;
             position: absolute;
             background-color:#4068A8;
-            min-width: 143.39px;
+            min-width: 123.39px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             z-index: 1;
             top: 100%; /* Update top to 100% for top alignment */
