@@ -460,7 +460,7 @@ footer{
     }
     #job-title{
         margin: 0px;
-        font-size: 35px;
+        font-size: 27px;
     }
     #about{
         display: flex;
@@ -584,7 +584,7 @@ footer{
         height: 200px;
     }
     #complete-project-container{
-        margin-top: 90px;
+        margin-top: 20px;
         margin-bottom: 40px;
     }
     #complete-about-container{
