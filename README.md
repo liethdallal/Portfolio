@@ -31,9 +31,6 @@ A website where the user can look up weather information from any city around th
 
 Thanks for visiting my GitHub profile! Feel free to explore my repositories and reach out if you'd like to collaborate or just chat about tech and other interests.
 
-## My GitHub Stats
-[![Lieth's GitHub stats](https://github-readme-stats.vercel.app/api?username=liethdallal)](https://github.com/liethdallal/github-readme-stats)
-
 
 ## Get in Touch
 - 📧 You can reach me via Email: (liethcodes@gmail.com)
